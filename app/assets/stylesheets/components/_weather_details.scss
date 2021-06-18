@@ -1,0 +1,84 @@
+.weather-details {
+  color: #FFF;
+  padding: 1.2em 0 0 2.4em;
+  margin-left: 0.6em;
+  background-color: $pink;
+  // border-top-left-radius: 1.5em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 75%;
+  height: 70%;
+}
+
+.weather-container {
+  width: 80vw;
+  height: 65vh;
+}
+
+@media all and (min-width: 520px) {
+  .weather-details {
+    // width: 85vw;
+    // height: 72vh;
+    padding-left: 80px;
+    padding-top: 50px;
+  }
+}
+
+.top-weather {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.temperature {
+  display: flex;
+  align-items: flex-start;
+}
+
+#temperature {
+  font-size: 6em;
+  margin: 0;
+}
+
+#degrees {
+  opacity: 0.8;
+  font-size: 2em;
+  position: relative;
+  top: 12px;
+  margin: 0;
+}
+
+.medium-text {
+  font-weight: 300;
+}
+
+#weather-icon {
+  position: relative;
+  width: 14em;
+  right: 1.6em;
+}
+
+.weather-infos {
+  margin-top: 20px;
+  > div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.light-text {
+  opacity: 0.8;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.fa-icon {
+  font-size: 3em;
+  padding: 28px;
+}
+
+.fla-icon {
+  width: 100px;
+  padding: 28px;
+}

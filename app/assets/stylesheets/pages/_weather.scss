@@ -1,0 +1,58 @@
+p {
+  margin: 0;
+}
+
+.top-bar {
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: flex-end;
+  // margin: 2em 2em 1.4em 2em;
+}
+
+@media all and (min-width: 520px) {
+  .top-bar {
+    margin: 40px 0 0 60px;
+  }
+}
+
+.today-date {
+  margin: 0;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  :nth-child(2) {
+    margin-right: 35px;
+  }
+  :nth-child(3) {
+    width: 35%;
+  }
+}
+
+#get-location {
+  margin-right: 35px;
+  // position: relative;
+  // left: 45px;
+}
+
+.btn {
+  border-radius: 6px
+}
+
+.search-bar {
+  display: flex;
+  // :nth-child(n) {
+  //   margin: 2px;
+  // }
+  :nth-child(2) {
+  }
+}
+
+#address-input {
+  // width: 25vw;
+  border-radius: 6px;
+  padding: 7px 10px;
+}
+
